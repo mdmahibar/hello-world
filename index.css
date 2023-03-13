@@ -1,9 +1,30 @@
 body {
     background-image: radial-gradient(blue, whitesmoke);
     font-size: 2rem;
+    min-height: 100vh;
 }
 
 h1 {
-    background-color: aliceblue;
-    color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #333;
+    padding: 1rem;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px #333;
+}
+
+a:hover,
+a:focus {
+    color: black;
 }
