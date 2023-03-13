@@ -1,0 +1,9 @@
+body {
+    background-image: radial-gradient(blue, whitesmoke);
+    font-size: 2rem;
+}
+
+h1 {
+    background-color: aliceblue;
+    color: #333;
+}
