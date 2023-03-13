@@ -1,7 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: orange;
+}
+
 body {
     background-image: radial-gradient(blue, whitesmoke);
     font-size: 2rem;
     min-height: 100vh;
+    max-width: 800px;
+    margin:  auto;
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
 }
 
 h1 {
